@@ -1,0 +1,367 @@
+# Manual + selenium MCQ - 30 marks
+
+## **Manual Testing (15 Questions)**
+
+**1. Which of the following is NOT a type of functional testing?**
+
+a) Unit Testing
+
+b) Regression Testing
+
+c) Load Testing
+
+d) Smoke Testing
+
+✅ **Answer: c) Load Testing**
+
+**2. What is the main purpose of Sanity Testing?**
+
+a) To check core functionality after minor changes
+
+b) To test the entire application thoroughly
+
+c) To test non-functional aspects of software
+
+d) To replace regression testing
+
+✅ **Answer: a) To check core functionality after minor changes**
+
+**3. Which document outlines the test objectives, scope, and approach?**
+
+a) Test Scenario
+
+b) Test Strategy
+
+c) Test Plan
+
+d) Test Case
+
+✅ **Answer: c) Test Plan**
+
+**4. What is the first phase of the Software Testing Life Cycle (STLC)?**
+
+a) Test Execution
+
+b) Test Design
+
+c) Requirement Analysis
+
+d) Test Planning
+
+✅ **Answer: c) Requirement Analysis**
+
+**5. What does a good test case include?**
+
+a) Test steps
+
+b) Expected results
+
+c) Preconditions
+
+d) All of the above
+
+✅ **Answer: d) All of the above**
+
+**6. Which testing technique ensures that all possible code paths are tested?**
+
+a) Black Box Testing
+
+b) White Box Testing
+
+c) Regression Testing
+
+d) Smoke Testing
+
+✅ **Answer: b) White Box Testing**
+
+**7. Which type of testing is performed without predefined test cases?**
+
+a) Performance Testing
+
+b) Regression Testing
+
+c) Exploratory Testing
+
+d) Functional Testing
+
+✅ **Answer: c) Exploratory Testing**
+
+**8. Which testing is used to determine system breaking points?**
+
+a) Load Testing
+
+b) Stress Testing
+
+c) Sanity Testing
+
+d) Unit Testing
+
+✅ **Answer: b) Stress Testing**
+
+**9. In which phase of STLC is the test environment prepared?**
+
+a) Test Case Development
+
+b) Test Execution
+
+c) Test Environment Setup
+
+d) Test Planning
+
+✅ **Answer: c) Test Environment Setup**
+
+**10. What is Boundary Value Analysis?**
+
+a) A test strategy for system performance
+
+b) Testing the software at extreme input values
+
+c) A method to find security vulnerabilities
+
+d) A type of exploratory testing
+
+✅ **Answer: b) Testing the software at extreme input values**
+
+**11. Which of the following is NOT a non-functional testing type?**
+
+a) Performance Testing
+
+b) Usability Testing
+
+c) Regression Testing
+
+d) Load Testing
+
+✅ **Answer: c) Regression Testing**
+
+**12. What type of testing checks data flow between modules?**
+
+a) Unit Testing
+
+b) Integration Testing
+
+c) System Testing
+
+d) Acceptance Testing
+
+✅ **Answer: b) Integration Testing**
+
+**13. Which of the following is a static testing technique?**
+
+a) Functional Testing
+
+b) Code Review
+
+c) Regression Testing
+
+d) Smoke Testing
+
+✅ **Answer: b) Code Review**
+
+**14. What does a test case contain?**
+
+a) Test Steps
+
+b) Expected Output
+
+c) Test Data
+
+d) All of the above
+
+✅ **Answer: d) All of the above**
+
+**15. What is the main advantage of Equivalence Partitioning?**
+
+a) Tests all possible inputs
+
+b) Reduces test cases while maintaining effectiveness
+
+c) Only applies to functional testing
+
+d) Ignores boundary values
+
+✅ **Answer: b) Reduces test cases while maintaining effectiveness**
+
+---
+
+## **Selenium (15 Questions)**
+
+**16. Which Selenium component supports record and playback?**
+
+a) Selenium RC
+
+b) Selenium IDE
+
+c) Selenium Grid
+
+d) Selenium WebDriver
+
+✅ **Answer: b) Selenium IDE**
+
+**17. Which command launches a browser in Selenium WebDriver?**
+
+a) `WebDriver.open()`
+
+b) `WebDriver.load()`
+
+c) `WebDriver.get()`
+
+d) `WebDriver.start()`
+
+✅ **Answer: c) WebDriver.get()`**
+
+**18. How do you locate an element by its ID in Selenium?**
+
+a) `findElement(By.id())`
+
+b) `findElement(By.name())`
+
+c) `findElement(By.class())`
+
+d) `findElement(By.xpath())`
+
+✅ **Answer: a) findElement(By.id())**
+
+**19. What is the difference between `driver.close()` and `driver.quit()`?**
+
+a) No difference
+
+b) `driver.close()` closes one window, `driver.quit()` closes all windows
+
+c) `driver.close()` exits the script, `driver.quit()` continues execution
+
+d) `driver.quit()` only closes pop-ups
+
+✅ **Answer: b) `driver.close()` closes one window, `driver.quit()` closes all windows**
+
+**20. Which of the following is NOT a valid locator in Selenium?**
+
+a) ID
+
+b) CSS Selector
+
+c) XPath
+
+d) TagText
+
+✅ **Answer: d) TagText**
+
+**21. What is an implicit wait in Selenium?**
+
+a) It waits for a fixed time before each command
+
+b) It waits until an element is found or a timeout occurs
+
+c) It stops the execution of the script
+
+d) It is used for performance testing
+
+✅ **Answer: b) It waits until an element is found or a timeout occurs**
+
+**22. How do you handle an alert in Selenium?**
+
+a) `driver.switchTo().alert().accept();`
+
+b) `driver.getAlert();`
+
+c) `driver.switchTo().popUp().accept();`
+
+d) `driver.alertHandle();`
+
+✅ **Answer: a) `driver.switchTo().alert().accept();`**
+
+**23. Which method is used to switch between windows in Selenium?**
+
+a) `driver.switchTo().window()`
+
+b) `driver.changeWindow()`
+
+c) `driver.selectWindow()`
+
+d) `driver.windowHandle()`
+
+✅ **Answer: a) `driver.switchTo().window()`**
+
+**24. What is Selenium Grid used for?**
+
+a) Running tests in parallel
+
+b) Recording test scripts
+
+c) Automating UI interactions
+
+d) Debugging Java code
+
+✅ **Answer: a) Running tests in parallel**
+
+**25. Which of the following is NOT an explicit wait in Selenium?**
+
+a) WebDriverWait
+
+b) FluentWait
+
+c) Thread.sleep()
+
+d) ExpectedConditions
+
+✅ **Answer: c) Thread.sleep()**
+
+**26. Which testing framework is commonly used with Selenium for BDD?**
+
+a) JUnit
+
+b) TestNG
+
+c) Cucumber
+
+d) PyTest
+
+✅ **Answer: c) Cucumber**
+
+**27. What is Page Object Model (POM)?**
+
+a) A testing tool
+
+b) A framework for database management
+
+c) A design pattern that creates object repositories
+
+d) A reporting tool
+
+✅ **Answer: c) A design pattern that creates object repositories**
+
+**28. How do you select an option from a dropdown in Selenium?**
+
+a) `selectByIndex()`
+
+b) `selectByVisibleText()`
+
+c) `selectByValue()`
+
+d) All of the above
+
+✅ **Answer: d) All of the above**
+
+**29. How do you navigate back in Selenium?**
+
+a) `driver.back();`
+
+b) `driver.navigate().back();`
+
+c) `driver.goBack();`
+
+d) `driver.previous();`
+
+✅ **Answer: b) driver.navigate().back();**
+
+**30. Which browser is NOT supported by Selenium WebDriver?**
+
+a) Chrome
+
+b) Edge
+
+c) Opera
+
+d) Internet Explorer 6
+
+✅ **Answer: d) Internet Explorer 6**
